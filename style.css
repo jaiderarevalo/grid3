@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    height: 80px;
+    width: auto;
+    text-align: center;
+}
+aside{
+    background-color:pink;
+    height: 400px;
+    width: 30%;
+    text-align: center;
+}
+footer{
+    background-color: yellow;
+    height: 80px;
+    width: auto;
+    text-align: center;
+}
+section>h2{
+    background-color: aqua;
+}
+section{
+    background-color: orange;
+    height: 400px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    text-align: center;
+
+
+}
+body{
+    margin: 50px;
+}
